@@ -3,7 +3,6 @@ import pygame
 from time import sleep
 pygame.init()
 window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
-# sleep(5)
 pygame.mixer.init()
 pygame.mixer.music.load('AISA KYUN MAA Lyrical NEERJA Sonam Kapoor Prasoon Joshi T-Series.mp3')
 pygame.mixer.music.play()
